@@ -4,7 +4,7 @@
 	<title></title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="aboutstyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -30,9 +30,11 @@
   </ul>
 </nav>
 
-<div class="container text-center" style="width: 40%">
-	<h1>Rohith Surya Podugu</h1>
-	<h2>Skills</h2>
+<div class="container-fluid">
+	<div class="row">
+  <div class="col-sm-6">
+  	<h1 style="font-family: 'Gloria Hallelujah', cursive;font-size: 4.5em;">Rohith Surya Podugu</h1>
+	<h2 class="side-headings">Skills</h2>
 	<ul>
 		<li>Programming Languages: C, Java, Python</li>
 		<li>Web Technologies: HTML, CSS, Bootstrap, JavaScript, Django(Backend),</li>
@@ -40,12 +42,12 @@
 		<li>Operating Systems: Ubuntu, Windows</li>
 		<li>Other Skills: Shell Programming</li>
 	</ul>
-	<h2>Mini Projects</h2>
+	<h2 class="side-headings">Mini Projects</h2>
 	<ul>
 		<li>Solved the n-queens problem using Min Conflict Algorithm (Local Search Algorithm). This algorithm can be used for getting near solutions in less time</li>
 		<li>Data Analysis on Udacity Data Set: Used python for data analysis to find the characteristics of students in the firstt week of enrollment who passed the project.</li>
 	</ul>
-	<h2>Online Courses</h2>
+	<h2 class="side-headings">Online Courses</h2>
 	<h3>Khan Academy</h3>
 	<ul>
 		<li>
@@ -58,6 +60,11 @@
 		<li>How to use Git and Github</li>
 		<li>Intro to Data Analysis</li>
 	</ul>
+  </div>
+  <div class="col-sm-6">
+  	<img class="img-fluid" src="tour.png">
+  </div>
+</div>
 </div>
 </body>
 </html>
